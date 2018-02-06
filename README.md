@@ -155,7 +155,7 @@ This repo takes a more **light-weight** approach to automation using a combinati
 
 ##### Clone the Repo
 
-    $ git clone https://github.com/donnemartin/dev-setup.git && cd dev-setup
+    $ git clone https://github.com/saarwexler/dev-setup.git && cd dev-setup
 
 ##### Run the .dots Script with Command Line Arguments
 
@@ -177,7 +177,7 @@ Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydata.sh`, `aws.sh`
 
 #### Running without Git
 
-    $ curl -O https://raw.githubusercontent.com/donnemartin/dev-setup/master/.dots && ./.dots [Add ARGS Here]
+    $ curl -O https://raw.githubusercontent.com/saarwexler/dev-setup/master/.dots && ./.dots [Add ARGS Here]
 
 #### Scripts
 
@@ -239,7 +239,7 @@ Alternatively, to update while avoiding the confirmation prompt:
 
 To sync dev-setup to your local home directory without Git, run the following:
 
-    $ cd ~; curl -#L https://github.com/donnemartin/dev-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE}
+    $ cd ~; curl -#L https://github.com/saarwexler/dev-setup/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE}
 
 To update later on, just run that command again.
 
@@ -344,7 +344,7 @@ The `brew.sh` script takes awhile to complete, as some formulae need to be insta
 
 When setting up a new Mac, you may want to set OS X defaults geared towards developers.  The `osx.sh` script also configures common third-party apps such Sublime Text and Chrome.
 
-**Note**: **I strongly encourage you read through the commented [osx.sh source file](https://github.com/donnemartin/dev-setup/blob/master/osx.sh) and tweak any settings based on your personal preferences.  The script defaults are intended for you to customize.**  For example, if you are not running an SSD you might want to change some of the settings listed in the SSD section.
+**Note**: **I strongly encourage you read through the commented [osx.sh source file](https://github.com/saarwexler/dev-setup/blob/master/osx.sh) and tweak any settings based on your personal preferences.  The script defaults are intended for you to customize.**  For example, if you are not running an SSD you might want to change some of the settings listed in the SSD section.
 
 Run the `osx.sh` script:
 
